@@ -4,24 +4,9 @@
     "creator": [
         {
             "class": "Person",
-            "identifier": "",
-            "name": ""
-        },
-        {
-            "class": "Person",
-            "identifier": "",
-            "isNew": true,
-            "name": ""
-        },
-        {
-            "class": "Person",
             "identifier": "0000-0001-9852-1987",
             "name": "B\u00e9r\u00e9nice Batut",
             "url": "https://orcid.org/0000-0001-9852-1987"
-        },
-        {
-            "class": "Organization",
-            "name": ""
         },
         {
             "class": "Person",
@@ -50,8 +35,8 @@
             "name": "Input dataset",
             "outputs": [],
             "position": {
-                "left": 0,
-                "top": 600.9666748046875
+                "left": 0.0,
+                "top": 630.9666748046875
             },
             "tool_id": null,
             "tool_state": "{\"optional\": false, \"tag\": \"\"}",
@@ -77,7 +62,7 @@
             "outputs": [],
             "position": {
                 "left": 1124.4833374023438,
-                "top": 1355.183349609375
+                "top": 1385.183349609375
             },
             "tool_id": null,
             "tool_state": "{\"suggestions\": [\"^.*Gallus|Homo|Bos.*$\"], \"parameter_type\": \"text\", \"optional\": false}",
@@ -124,7 +109,7 @@
             ],
             "position": {
                 "left": 509.48333740234375,
-                "top": 0
+                "top": 0.0
             },
             "post_job_actions": {
                 "RenameDatasetActionlog_read_length": {
@@ -241,7 +226,7 @@
             ],
             "position": {
                 "left": 513.2333374023438,
-                "top": 485.08331298828125
+                "top": 515.0833129882812
             },
             "post_job_actions": {
                 "RenameDatasetActionhtml_file": {
@@ -274,12 +259,12 @@
                 {
                     "label": "FastQC Quality Check Before Preprocessing Text file",
                     "output_name": "text_file",
-                    "uuid": "29a559a5-faa6-4826-a80a-a5e6f662a383"
+                    "uuid": "1c6556b3-e5b3-4ead-854f-f85c8dca803f"
                 },
                 {
                     "label": "FastQC Quality Check Before Preprocessing HTML file",
                     "output_name": "html_file",
-                    "uuid": "d9248684-95a5-4684-a005-4d3fb269284b"
+                    "uuid": "62d79948-d5e6-4d7a-bbf8-71b8fa9df121"
                 }
             ]
         },
@@ -309,8 +294,8 @@
                 }
             ],
             "position": {
-                "left": 269.46665954589844,
-                "top": 998.2166748046875
+                "left": 269.4666748046875,
+                "top": 1028.2166748046875
             },
             "post_job_actions": {},
             "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/porechop/porechop/0.2.4",
@@ -320,7 +305,7 @@
                 "owner": "iuc",
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
-            "tool_state": "{\"adapter_search_settings\": {\"adapter_threshold\": \"90.0\", \"check_reads\": \"10000\", \"scoring_scheme\": \"3,-6,-5,-2\"}, \"barcode_binning_settings\": {\"barcode_threshold\": \"75.0\", \"barcode_diff\": \"5.0\", \"require_two_barcodes\": \"false\", \"discard_unassigned\": \"false\"}, \"end_adapter_settings\": {\"end_size\": \"150\", \"min_trim_size\": \"4\", \"extra_end_trim\": \"2\", \"end_threshold\": \"75.0\"}, \"format\": {\"__class__\": \"RuntimeValue\"}, \"input_file\": {\"__class__\": \"ConnectedValue\"}, \"middle_adapter_settings\": {\"no_split\": \"false\", \"discard_middle\": \"false\", \"middle_threshold\": \"85.0\", \"extra_middle_trim_good_side\": \"10\", \"extra_middle_trim_bad_side\": \"100\", \"min_split_read_size\": \"1000\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_state": "{\"adapter_search_settings\": {\"adapter_threshold\": \"90.0\", \"check_reads\": \"10000\", \"scoring_scheme\": \"3,-6,-5,-2\"}, \"barcode_binning_settings\": {\"barcode_threshold\": \"75.0\", \"barcode_diff\": \"5.0\", \"require_two_barcodes\": \"false\", \"discard_unassigned\": \"false\"}, \"end_adapter_settings\": {\"end_size\": \"150\", \"min_trim_size\": \"4\", \"extra_end_trim\": \"2\", \"end_threshold\": \"75.0\"}, \"format\": \"fastq.gz\", \"input_file\": {\"__class__\": \"ConnectedValue\"}, \"middle_adapter_settings\": {\"no_split\": \"false\", \"discard_middle\": \"false\", \"middle_threshold\": \"85.0\", \"extra_middle_trim_good_side\": \"10\", \"extra_middle_trim_bad_side\": \"100\", \"min_split_read_size\": \"1000\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
             "tool_version": "0.2.4",
             "type": "tool",
             "uuid": "a0c0e473-e3a9-499c-80d5-5a9ef7905100",
@@ -328,7 +313,7 @@
                 {
                     "label": "Porechop output Trimmed Reads",
                     "output_name": "outfile",
-                    "uuid": "36a6a0ab-3271-4a4f-8b60-0b762d7713fa"
+                    "uuid": "8eb99f03-e3bf-47d1-84cf-5b5c84c21e7e"
                 }
             ]
         },
@@ -358,7 +343,7 @@
             ],
             "position": {
                 "left": 534.4833374023438,
-                "top": 991.6666870117188
+                "top": 1021.6666870117188
             },
             "post_job_actions": {
                 "RenameDatasetActionout1": {
@@ -391,12 +376,12 @@
                 {
                     "label": "Nanopore sequenced reads processed with Fastp HTML Report ",
                     "output_name": "report_html",
-                    "uuid": "f7212657-f865-4725-ae6a-5866a513b309"
+                    "uuid": "421fb9bd-2903-43ce-ab6a-3e1fbea30498"
                 },
                 {
                     "label": "Nanopore sequenced reads processed with Fastp",
                     "output_name": "out1",
-                    "uuid": "1188c211-f533-4ced-821d-2f1cd484373d"
+                    "uuid": "9f853c1c-133e-481e-bef1-fa6a25004fa5"
                 }
             ]
         },
@@ -437,8 +422,8 @@
                 }
             ],
             "position": {
-                "left": 794.88330078125,
-                "top": 2.4333343505859375
+                "left": 794.8833312988281,
+                "top": 32.43333435058594
             },
             "post_job_actions": {
                 "RenameDatasetActionlog_read_length": {
@@ -492,27 +477,27 @@
                 {
                     "label": "Nanoplot on Reads After Preprocessing Log Transformed Histogram Read Length",
                     "output_name": "log_read_length",
-                    "uuid": "43d733d0-1813-4c8e-9e17-22cd0e1fcb20"
+                    "uuid": "3947ce67-2b97-4771-b3f5-a6a694b28419"
                 },
                 {
                     "label": "Nanoplot on Reads After Preprocessing NanoStats post filtering",
                     "output_name": "nanostats_post_filtering",
-                    "uuid": "27a774e3-f502-4f5f-8e35-86bcebdbbe5f"
+                    "uuid": "09f377b7-5f88-48a5-9047-0c6179c3a5cc"
                 },
                 {
                     "label": "Nanoplot QC on Reads After Preprocessing HTML Report",
                     "output_name": "output_html",
-                    "uuid": "ed78a21a-63f6-4c64-bd82-839dbc503ca1"
+                    "uuid": "b4487303-bb82-4811-b716-190d7aa7078c"
                 },
                 {
                     "label": "Nanoplot on Reads After Preprocessing NanoStats",
                     "output_name": "nanostats",
-                    "uuid": "cbbd80ce-7b05-4cf1-ae74-e5f5ee95b456"
+                    "uuid": "18128f25-b8c4-4a2e-b527-6aa3c698a0b3"
                 },
                 {
                     "label": "Nanoplot on Reads After Preprocessing Histogram Read Length",
                     "output_name": "read_length",
-                    "uuid": "69f314d4-d219-48a3-acdd-65f0c0b979c9"
+                    "uuid": "688f6c74-740e-4925-bc7d-4aa49a35ac48"
                 }
             ]
         },
@@ -554,8 +539,8 @@
                 }
             ],
             "position": {
-                "left": 810.316650390625,
-                "top": 483.1333312988281
+                "left": 810.3166656494141,
+                "top": 513.1333312988281
             },
             "post_job_actions": {
                 "RenameDatasetActionhtml_file": {
@@ -588,12 +573,12 @@
                 {
                     "label": "FastQC Quality Check After Preprocessing Text file",
                     "output_name": "text_file",
-                    "uuid": "c06544a8-6f34-462e-9cb7-dd8c62f6c110"
+                    "uuid": "33c18b75-91cc-445f-8536-91e448b814ce"
                 },
                 {
                     "label": "FastQC Quality Check After Preprocessing HTML file",
                     "output_name": "html_file",
-                    "uuid": "bddb0c6f-ec4b-44e7-86ce-29f6e08a5036"
+                    "uuid": "45908088-54ed-410d-8a7c-85f2dfa459c1"
                 }
             ]
         },
@@ -622,8 +607,8 @@
                 }
             ],
             "position": {
-                "left": 844.61669921875,
-                "top": 1215.86669921875
+                "left": 844.6166687011719,
+                "top": 1245.86669921875
             },
             "post_job_actions": {
                 "RenameDatasetActionoutput": {
@@ -656,12 +641,12 @@
                 {
                     "label": "Kraken2 with Kalamri database Report",
                     "output_name": "report_output",
-                    "uuid": "4fb224a5-96f9-4b2f-9faa-82977991bf3e"
+                    "uuid": "cc1189b0-af47-4e56-bc6e-b8245a5c5ba6"
                 },
                 {
                     "label": "Kraken2 with Kalamri database output",
                     "output_name": "output",
-                    "uuid": "02a1a11c-2ecd-44e3-9120-0226df313aed"
+                    "uuid": "80e5f917-90fa-4c72-885c-7bbd1b736c88"
                 }
             ]
         },
@@ -695,7 +680,7 @@
             ],
             "position": {
                 "left": 1071.566650390625,
-                "top": 482.29998779296875
+                "top": 512.2999877929688
             },
             "post_job_actions": {
                 "RenameDatasetActionhtml_report": {
@@ -720,7 +705,7 @@
                 "owner": "iuc",
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
-            "tool_state": "{\"comment\": \"\", \"export\": \"false\", \"flat\": \"false\", \"results\": [{\"__index__\": 0, \"software_cond\": {\"software\": \"fastqc\", \"__current_case__\": 8, \"output\": [{\"__index__\": 0, \"type\": \"data\", \"input\": {\"__class__\": \"ConnectedValue\"}}, {\"__index__\": 1, \"type\": \"data\", \"input\": {\"__class__\": \"ConnectedValue\"}}]}}], \"saveLog\": \"false\", \"title\": \"\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_state": "{\"comment\": \"\", \"export\": \"false\", \"flat\": \"false\", \"results\": [{\"__index__\": 0, \"software_cond\": {\"software\": \"fastqc\", \"__current_case__\": 8, \"output\": [{\"__index__\": 0, \"type\": \"data\", \"input\": {\"__class__\": \"RuntimeValue\"}}, {\"__index__\": 1, \"type\": \"data\", \"input\": {\"__class__\": \"RuntimeValue\"}}]}}], \"saveLog\": \"false\", \"title\": \"MultiQC Report Before and After PreProcessing\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
             "tool_version": "1.11+galaxy0",
             "type": "tool",
             "uuid": "2ec6a990-be2a-41e6-903f-342835b91d45",
@@ -728,12 +713,12 @@
                 {
                     "label": "MultiQC Stats Before and After Preprocessing",
                     "output_name": "stats",
-                    "uuid": "7a62e26a-bb2e-4d6d-b4ad-550b341c6d69"
+                    "uuid": "bee30a74-fa95-4737-ab54-f84fd3085736"
                 },
                 {
                     "label": "MultiQC HTML report Before and After Preprocessing",
                     "output_name": "html_report",
-                    "uuid": "64eddb98-f64f-4ac0-a705-8bfeaf9d38f6"
+                    "uuid": "b6bf59dd-9dfc-4cab-862c-debab5737a1a"
                 }
             ]
         },
@@ -762,8 +747,8 @@
                 }
             ],
             "position": {
-                "left": 1359.050048828125,
-                "top": 1178.9666748046875
+                "left": 1359.0499877929688,
+                "top": 1208.9666748046875
             },
             "post_job_actions": {
                 "RenameDatasetActionoutput": {
@@ -789,7 +774,7 @@
                 {
                     "label": "Host Contamination filtered Kraken2 output",
                     "output_name": "output",
-                    "uuid": "a2c48e4b-b82a-404b-ab16-705fd9de91bb"
+                    "uuid": "d8bb4b90-0455-48e2-8154-d597ebd1f240"
                 }
             ]
         },
@@ -823,7 +808,7 @@
             ],
             "position": {
                 "left": 1721.433349609375,
-                "top": 1039.5999755859375
+                "top": 1069.5999755859375
             },
             "post_job_actions": {
                 "RenameDatasetActionoutput_neg": {
@@ -856,12 +841,12 @@
                 {
                     "label": "Nanopore processed sequenced reads of the input sample",
                     "output_name": "output_neg",
-                    "uuid": "a48c0590-1140-4ef1-8e3f-efc17e32aac5"
+                    "uuid": "92b665d9-be14-4b89-ad71-fa832acfac80"
                 },
                 {
                     "label": "Host Contamination reads",
                     "output_name": "output_pos",
-                    "uuid": "ad87644e-033e-4174-a5bd-8f61b615c06b"
+                    "uuid": "21600e3d-85db-40ce-b14e-bce9d113bd72"
                 }
             ]
         }
