@@ -5,25 +5,18 @@
   "subtopic": "intro",
   "title": "Introduction to proteomics, protein identification, quantification and statistical modelling",
   "redirect_from": [
-    "/topics/proteomics/slides/introduction"
+    "/topics/proteomics/slides/introduction",
+    "/short/proteomics/introduction/slides",
+    "/short/S00080"
   ],
   "priority": 1,
   "contributors": [
-    {
-      "name": "Melanie Föll",
-      "email": "melanie.foell@mol-med.uni-freiburg.de",
-      "twitter": "MCFoell",
-      "gitter": "foellmelanie",
-      "orcid": "0000-0002-1887-7543",
-      "joined": "2018-10",
-      "elixir_node": "de",
-      "id": "foellmelanie",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/foellmelanie.json"
-    }
+    "foellmelanie"
   ],
   "url": "/topics/proteomics/tutorials/introduction/slides.html",
   "topic_name": "proteomics",
   "tutorial_name": "introduction",
+  "dir": "topics/proteomics/tutorials/introduction",
   "id": "proteomics/introduction",
   "video_library": {
     "tutorial": null,
@@ -78,8 +71,5 @@
     "video": true
   },
   "type": "tutorial",
-  "urls": {
-    "hands_on": "https://training.galaxyproject.org/training-material/api/topics//proteomics/tutorials/introduction/slides.json",
-    "slides": "https://training.galaxyproject.org/training-material/api/topics//proteomics/tutorials/introduction/slides.json"
-  }
+  "short_id": "S00080"
 }

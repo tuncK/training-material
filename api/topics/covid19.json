@@ -11,7 +11,8 @@
       "joined": "2017-09",
       "elixir_node": "de",
       "id": "wm75",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/wm75.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/wm75.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/wm75/"
     }
   ],
   "gitter": "galaxyproject/sars-cov-2",
@@ -62,12 +63,14 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "wm75",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/wm75.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/wm75.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/wm75/"
         }
       ],
       "url": "/topics/sequence-analysis/tutorials/human-reads-removal/tutorial.html",
       "topic_name": "sequence-analysis",
       "tutorial_name": "human-reads-removal",
+      "dir": "topics/sequence-analysis/tutorials/human-reads-removal",
       "id": "sequence-analysis/human-reads-removal",
       "video_library": {
         "tutorial": {
@@ -102,7 +105,16 @@
       "workflows": [
         {
           "workflow": "human-reads-removal.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/human-reads-removal/workflows/human-reads-removal.ga",
+          "path": "topics/sequence-analysis/tutorials/human-reads-removal/workflows/human-reads-removal.ga",
+          "wfid": "sequence-analysis-human-reads-removal",
+          "wfname": "human-reads-removal",
+          "trs_endpoint": "https://training.galaxyproject.org/training-material/api/ga4gh/trs/v2/tools/sequence-analysis-human-reads-removal/versions/human-reads-removal",
+          "license": null,
+          "creators": [
+
+          ]
         }
       ],
       "tools": [
@@ -129,13 +141,14 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//sequence-analysis/tutorials/human-reads-removal/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//sequence-analysis/tutorials/human-reads-removal/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/sequence-analysis/tutorials/human-reads-removal/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/sequence-analysis/tutorials/human-reads-removal/tutorial.json"
       }
     },
     {
       "layout": "tutorial_hands_on",
       "title": "Mutation calling, viral genome reconstruction and lineage/clade assignment from SARS-CoV-2 sequencing data",
+      "subtopic": "one-health",
       "level": "Intermediate",
       "zenodo_link": "https://zenodo.org/record/5036687",
       "questions": [
@@ -163,7 +176,8 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "wm75",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/wm75.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/wm75.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/wm75/"
         },
         {
           "name": "Bérénice Batut",
@@ -174,16 +188,26 @@
           "orcid": "0000-0001-9852-1987",
           "joined": "2017-09",
           "elixir_node": "de",
+          "contact_for_training": true,
+          "location": {
+            "country": "FR",
+            "lat": 45.77,
+            "lon": 3.08
+          },
+          "fediverse": "https://piaille.fr/@bebatut",
           "id": "bebatut",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
         }
       ],
       "tags": [
-        "covid19"
+        "covid19",
+        "virology"
       ],
       "url": "/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html",
       "topic_name": "variant-analysis",
       "tutorial_name": "sars-cov-2-variant-discovery",
+      "dir": "topics/variant-analysis/tutorials/sars-cov-2-variant-discovery",
       "id": "variant-analysis/sars-cov-2-variant-discovery",
       "video_library": {
         "tutorial": {
@@ -242,13 +266,14 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.json"
       }
     },
     {
       "layout": "tutorial_hands_on",
       "title": "From NCBI's Sequence Read Archive (SRA) to Galaxy: SARS-CoV-2 variant analysis",
+      "subtopic": "one-health",
       "zenodo_link": "http://zenodo.org/record/3906454",
       "questions": [
         "Learn how to get and use data from the Sequence Read Archive in Galaxy."
@@ -262,20 +287,24 @@
         "Sequence data in the SRA can be directly imported into Galaxy"
       ],
       "tags": [
-        "covid19"
+        "covid19",
+        "virology"
       ],
       "contributors": [
         {
           "name": "Marius van den Beek",
           "joined": "2018-06",
           "id": "mvdbeek",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/mvdbeek.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/mvdbeek.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/mvdbeek/"
         },
         {
           "name": "Dave Clements",
           "joined": "2017-09",
+          "orcid": "0000-0002-9970-6657",
           "id": "tnabtaf",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/tnabtaf.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/tnabtaf.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/tnabtaf/"
         },
         {
           "name": "Daniel Blankenberg",
@@ -283,19 +312,22 @@
           "orcid": "0000-0002-6833-9049",
           "joined": "2018-07",
           "id": "blankenberg",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/blankenberg.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/blankenberg.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/blankenberg/"
         },
         {
           "name": "Anton Nekrutenko",
           "email": "anton@nekrut.org",
           "joined": "2017-09",
           "id": "nekrut",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/nekrut.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/nekrut.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/nekrut/"
         }
       ],
       "url": "/topics/variant-analysis/tutorials/sars-cov-2/tutorial.html",
       "topic_name": "variant-analysis",
       "tutorial_name": "sars-cov-2",
+      "dir": "topics/variant-analysis/tutorials/sars-cov-2",
       "id": "variant-analysis/sars-cov-2",
       "video_library": {
         "tutorial": null,
@@ -309,7 +341,16 @@
       "workflows": [
         {
           "workflow": "main_workflow.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2/workflows/main_workflow.ga",
+          "path": "topics/variant-analysis/tutorials/sars-cov-2/workflows/main_workflow.ga",
+          "wfid": "variant-analysis-sars-cov-2",
+          "wfname": "main_workflow",
+          "trs_endpoint": "https://training.galaxyproject.org/training-material/api/ga4gh/trs/v2/tools/variant-analysis-sars-cov-2/versions/main_workflow",
+          "license": null,
+          "creators": [
+
+          ]
         }
       ],
       "tools": [
@@ -338,8 +379,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//variant-analysis/tutorials/sars-cov-2/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//variant-analysis/tutorials/sars-cov-2/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/variant-analysis/tutorials/sars-cov-2/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/variant-analysis/tutorials/sars-cov-2/tutorial.json"
       }
     },
     {
@@ -380,12 +421,14 @@
           "joined": "2019-05",
           "elixir_node": "de",
           "id": "simonbray",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/simonbray.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/simonbray.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/simonbray/"
         }
       ],
       "url": "/topics/computational-chemistry/tutorials/covid19-docking/tutorial.html",
       "topic_name": "computational-chemistry",
       "tutorial_name": "covid19-docking",
+      "dir": "topics/computational-chemistry/tutorials/covid19-docking",
       "id": "computational-chemistry/covid19-docking",
       "video_library": {
         "tutorial": null,
@@ -399,7 +442,16 @@
       "workflows": [
         {
           "workflow": "workflow.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/computational-chemistry/tutorials/covid19-docking/workflows/workflow.ga",
+          "path": "topics/computational-chemistry/tutorials/covid19-docking/workflows/workflow.ga",
+          "wfid": "computational-chemistry-covid19-docking",
+          "wfname": "workflow",
+          "trs_endpoint": "https://training.galaxyproject.org/training-material/api/ga4gh/trs/v2/tools/computational-chemistry-covid19-docking/versions/workflow",
+          "license": null,
+          "creators": [
+
+          ]
         }
       ],
       "tools": [
@@ -434,8 +486,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//computational-chemistry/tutorials/covid19-docking/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//computational-chemistry/tutorials/covid19-docking/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/computational-chemistry/tutorials/covid19-docking/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/computational-chemistry/tutorials/covid19-docking/tutorial.json"
       }
     },
     {
@@ -492,12 +544,14 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "wm75",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/wm75.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/wm75.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/wm75/"
         }
       ],
       "url": "/topics/assembly/tutorials/assembly-with-preprocessing/tutorial.html",
       "topic_name": "assembly",
       "tutorial_name": "assembly-with-preprocessing",
+      "dir": "topics/assembly/tutorials/assembly-with-preprocessing",
       "id": "assembly/assembly-with-preprocessing",
       "video_library": {
         "tutorial": null,
@@ -543,12 +597,30 @@
       "slides": true,
       "workflows": [
         {
-          "workflow": "assembly_with_preprocessing_and_sra_download.ga",
-          "tests": false
+          "workflow": "assembly_with_preprocessing.ga",
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/assembly/tutorials/assembly-with-preprocessing/workflows/assembly_with_preprocessing.ga",
+          "path": "topics/assembly/tutorials/assembly-with-preprocessing/workflows/assembly_with_preprocessing.ga",
+          "wfid": "assembly-assembly-with-preprocessing",
+          "wfname": "assembly_with_preprocessing",
+          "trs_endpoint": "https://training.galaxyproject.org/training-material/api/ga4gh/trs/v2/tools/assembly-assembly-with-preprocessing/versions/assembly_with_preprocessing",
+          "license": null,
+          "creators": [
+
+          ]
         },
         {
-          "workflow": "assembly_with_preprocessing.ga",
-          "tests": false
+          "workflow": "assembly_with_preprocessing_and_sra_download.ga",
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/assembly/tutorials/assembly-with-preprocessing/workflows/assembly_with_preprocessing_and_sra_download.ga",
+          "path": "topics/assembly/tutorials/assembly-with-preprocessing/workflows/assembly_with_preprocessing_and_sra_download.ga",
+          "wfid": "assembly-assembly-with-preprocessing",
+          "wfname": "assembly_with_preprocessing_and_sra_download",
+          "trs_endpoint": "https://training.galaxyproject.org/training-material/api/ga4gh/trs/v2/tools/assembly-assembly-with-preprocessing/versions/assembly_with_preprocessing_and_sra_download",
+          "license": null,
+          "creators": [
+
+          ]
         }
       ],
       "tools": [
@@ -582,8 +654,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//assembly/tutorials/assembly-with-preprocessing/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//assembly/tutorials/assembly-with-preprocessing/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/assembly/tutorials/assembly-with-preprocessing/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/assembly/tutorials/assembly-with-preprocessing/tutorial.json"
       }
     },
     {
@@ -625,7 +697,8 @@
           "joined": "2019-05",
           "elixir_node": "de",
           "id": "simonbray",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/simonbray.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/simonbray.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/simonbray/"
         },
         {
           "name": "Wolfgang Maier",
@@ -633,13 +706,15 @@
           "joined": "2017-09",
           "elixir_node": "de",
           "id": "wm75",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/wm75.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/wm75.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/wm75/"
         }
       ],
       "subtopic": "workflows",
       "url": "/topics/galaxy-interface/tutorials/workflow-automation/tutorial.html",
       "topic_name": "galaxy-interface",
       "tutorial_name": "workflow-automation",
+      "dir": "topics/galaxy-interface/tutorials/workflow-automation",
       "id": "galaxy-interface/workflow-automation",
       "video_library": {
         "tutorial": null,
@@ -688,7 +763,20 @@
       "workflows": [
         {
           "workflow": "main_workflow.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-automation/workflows/main_workflow.ga",
+          "path": "topics/galaxy-interface/tutorials/workflow-automation/workflows/main_workflow.ga",
+          "wfid": "galaxy-interface-workflow-automation",
+          "wfname": "main_workflow",
+          "trs_endpoint": "https://training.galaxyproject.org/training-material/api/ga4gh/trs/v2/tools/galaxy-interface-workflow-automation/versions/main_workflow",
+          "license": "MIT",
+          "creators": [
+            {
+              "class": "Person",
+              "identifier": "https://orcid.org/0000-0002-9464-6640",
+              "name": "Wolfgang Maier"
+            }
+          ]
         }
       ],
       "tools": [
@@ -711,8 +799,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/workflow-automation/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/workflow-automation/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/workflow-automation/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/workflow-automation/tutorial.json"
       }
     },
     {
@@ -760,7 +848,8 @@
           "joined": "2021-08",
           "email": "miguel.roncoroni@elixir-belgium.org",
           "id": "roncoronimiguel",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/roncoronimiguel.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/roncoronimiguel.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/roncoronimiguel/"
         },
         {
           "name": "Bert Droesbeke",
@@ -770,12 +859,14 @@
           "joined": "2019-12",
           "elixir_node": "be",
           "id": "bedroesb",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/bedroesb.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/bedroesb.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bedroesb/"
         }
       ],
       "url": "/topics/galaxy-interface/tutorials/upload-data-to-ena/tutorial.html",
       "topic_name": "galaxy-interface",
       "tutorial_name": "upload-data-to-ena",
+      "dir": "topics/galaxy-interface/tutorials/upload-data-to-ena",
       "id": "galaxy-interface/upload-data-to-ena",
       "video_library": {
         "tutorial": null,
@@ -789,7 +880,16 @@
       "workflows": [
         {
           "workflow": "main_workflow.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/upload-data-to-ena/workflows/main_workflow.ga",
+          "path": "topics/galaxy-interface/tutorials/upload-data-to-ena/workflows/main_workflow.ga",
+          "wfid": "galaxy-interface-upload-data-to-ena",
+          "wfname": "main_workflow",
+          "trs_endpoint": "https://training.galaxyproject.org/training-material/api/ga4gh/trs/v2/tools/galaxy-interface-upload-data-to-ena/versions/main_workflow",
+          "license": null,
+          "creators": [
+
+          ]
         }
       ],
       "tools": [
@@ -810,8 +910,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/upload-data-to-ena/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/upload-data-to-ena/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/upload-data-to-ena/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/upload-data-to-ena/tutorial.json"
       }
     },
     {
@@ -842,13 +942,15 @@
           "joined": "2021-05",
           "github": false,
           "id": "jontrow",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/jontrow.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/jontrow.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/jontrow/"
         },
         {
           "name": "Adelaide Rhodes",
           "joined": "2021-05",
           "id": "RareSeas",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/RareSeas.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/RareSeas.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/RareSeas/"
         }
       ],
       "requirements": [
@@ -863,6 +965,7 @@
       "url": "/topics/galaxy-interface/tutorials/ncbi-sarf/tutorial.html",
       "topic_name": "galaxy-interface",
       "tutorial_name": "ncbi-sarf",
+      "dir": "topics/galaxy-interface/tutorials/ncbi-sarf",
       "id": "galaxy-interface/ncbi-sarf",
       "video_library": {
         "tutorial": {
@@ -967,8 +1070,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/ncbi-sarf/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//galaxy-interface/tutorials/ncbi-sarf/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/ncbi-sarf/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/galaxy-interface/tutorials/ncbi-sarf/tutorial.json"
       }
     }
   ]

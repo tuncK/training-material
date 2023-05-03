@@ -16,8 +16,10 @@
       "twitter": "AnneFouilloux",
       "joined": "2019-07",
       "elixir_node": "no",
+      "orcid": "0000-0002-1784-2920",
       "id": "annefou",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/annefou.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/annefou.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/annefou/"
     }
   ],
   "materials": [
@@ -90,8 +92,7 @@
       ],
       "tags": [
         "pangeo",
-        "interactive-tools",
-        "jupyter-notebook"
+        "interactive-tools"
       ],
       "contributors": [
         {
@@ -99,8 +100,10 @@
           "twitter": "AnneFouilloux",
           "joined": "2019-07",
           "elixir_node": "no",
+          "orcid": "0000-0002-1784-2920",
           "id": "annefou",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/annefou.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/annefou.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/annefou/"
         }
       ],
       "notebook": {
@@ -110,6 +113,7 @@
       "url": "/topics/climate/tutorials/pangeo-notebook/tutorial.html",
       "topic_name": "climate",
       "tutorial_name": "pangeo-notebook",
+      "dir": "topics/climate/tutorials/pangeo-notebook",
       "id": "climate/pangeo-notebook",
       "video_library": {
         "tutorial": {
@@ -153,7 +157,21 @@
       "workflows": [
         {
           "workflow": "main_workflow.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/climate/tutorials/pangeo-notebook/workflows/main_workflow.ga",
+          "path": "topics/climate/tutorials/pangeo-notebook/workflows/main_workflow.ga",
+          "wfid": "climate-pangeo-notebook",
+          "wfname": "main_workflow",
+          "trs_endpoint": "https://training.galaxyproject.org/training-material/api/ga4gh/trs/v2/tools/climate-pangeo-notebook/versions/main_workflow",
+          "license": "MIT",
+          "creators": [
+            {
+              "class": "Person",
+              "identifier": "https://orcid.org/0000-0002-1784-2920",
+              "name": "Anne Fouilloux",
+              "url": "https://github.com/annefou"
+            }
+          ]
         }
       ],
       "tools": [
@@ -172,8 +190,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//climate/tutorials/pangeo-notebook/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//climate/tutorials/pangeo-notebook/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/climate/tutorials/pangeo-notebook/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/climate/tutorials/pangeo-notebook/tutorial.json"
       }
     },
     {
@@ -212,17 +230,20 @@
           "twitter": "AnneFouilloux",
           "joined": "2019-07",
           "elixir_node": "no",
+          "orcid": "0000-0002-1784-2920",
           "id": "annefou",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/annefou.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/annefou.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/annefou/"
         }
       ],
       "url": "/topics/climate/tutorials/pangeo/tutorial.html",
       "topic_name": "climate",
       "tutorial_name": "pangeo",
+      "dir": "topics/climate/tutorials/pangeo",
       "id": "climate/pangeo",
       "video_library": {
         "tutorial": {
-          "description": "In this tutorial, you will learn how to manipulate netCDF data files using Xarray Galaxy Tools. NetCDF stands for network Common Data Form and is one of the most popular file format in climate science. It is used for storing multidimensional scientific data variables such as temperature or humidity, and metadata can be added to facilitate sharing of netCDF data. netCDF is widely used outside the Climate Science community and each community has its own set of conventions, especially for metadata. The Climate and Forecast metadata convention, also called CF-convention is used by the Climate community and is designed to promote the processing and sharing of netCDF files.\n",
+          "description": "In this tutorial, you will learn how to manipulate netCDF data files using Xarray Galaxy Tools. NetCDF stands for network Common Data Form and is one of the most popular file format in climate science. It is used for storing multidimensional scientific data variables such as temperature or humidity, and metadata can be added to facilitate sharing of netCDF data. netCDF is widely used outside the Climate Science community and each community has its own set of conventions, especially for metadata. The Climate and Forecast metadata convention, also called CF-convention is used by the Climate community and is designed to promote the processing and sharing of netCDF files.",
           "materials": [
             {
               "link": "topics/climate/tutorials/pangeo/tutorial.html",
@@ -262,7 +283,21 @@
       "workflows": [
         {
           "workflow": "main_workflow.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/climate/tutorials/pangeo/workflows/main_workflow.ga",
+          "path": "topics/climate/tutorials/pangeo/workflows/main_workflow.ga",
+          "wfid": "climate-pangeo",
+          "wfname": "main_workflow",
+          "trs_endpoint": "https://training.galaxyproject.org/training-material/api/ga4gh/trs/v2/tools/climate-pangeo/versions/main_workflow",
+          "license": "MIT",
+          "creators": [
+            {
+              "class": "Person",
+              "identifier": "0000-0002-1784-2920",
+              "name": "Anne Fouilloux",
+              "url": "https://github.com/annefou"
+            }
+          ]
         }
       ],
       "tools": [
@@ -291,8 +326,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//climate/tutorials/pangeo/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//climate/tutorials/pangeo/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/climate/tutorials/pangeo/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/climate/tutorials/pangeo/tutorial.json"
       }
     },
     {
@@ -346,20 +381,24 @@
           "twitter": "AnneFouilloux",
           "joined": "2019-07",
           "elixir_node": "no",
+          "orcid": "0000-0002-1784-2920",
           "id": "annefou",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/annefou.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/annefou.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/annefou/"
         },
         {
           "name": "Hui Tang",
           "orcid": "0000-0002-8745-3859",
           "joined": "2021-01",
           "id": "huitang-earth",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/huitang-earth.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/huitang-earth.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/huitang-earth/"
         }
       ],
       "url": "/topics/climate/tutorials/fates/tutorial.html",
       "topic_name": "climate",
       "tutorial_name": "fates",
+      "dir": "topics/climate/tutorials/fates",
       "id": "climate/fates",
       "video_library": {
         "tutorial": {
@@ -440,7 +479,20 @@
       "workflows": [
         {
           "workflow": "CLM-FATES_ALP1_simulation_5years.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/climate/tutorials/fates/workflows/CLM-FATES_ALP1_simulation_5years.ga",
+          "path": "topics/climate/tutorials/fates/workflows/CLM-FATES_ALP1_simulation_5years.ga",
+          "wfid": "climate-fates",
+          "wfname": "clm-fates_alp1_simulation_5years",
+          "trs_endpoint": "https://training.galaxyproject.org/training-material/api/ga4gh/trs/v2/tools/climate-fates/versions/clm-fates_alp1_simulation_5years",
+          "license": "Apache-2.0",
+          "creators": [
+            {
+              "class": "Person",
+              "identifier": "https://orcid.org/0000-0002-1784-2920",
+              "name": "Anne Fouilloux"
+            }
+          ]
         }
       ],
       "tools": [
@@ -465,8 +517,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//climate/tutorials/fates/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//climate/tutorials/fates/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/climate/tutorials/fates/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/climate/tutorials/fates/tutorial.json"
       }
     },
     {
@@ -494,13 +546,16 @@
           "twitter": "AnneFouilloux",
           "joined": "2019-07",
           "elixir_node": "no",
+          "orcid": "0000-0002-1784-2920",
           "id": "annefou",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/annefou.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/annefou.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/annefou/"
         }
       ],
       "url": "/topics/climate/tutorials/climate-101/tutorial.html",
       "topic_name": "climate",
       "tutorial_name": "climate-101",
+      "dir": "topics/climate/tutorials/climate-101",
       "id": "climate/climate-101",
       "video_library": {
         "tutorial": null,
@@ -514,7 +569,20 @@
       "workflows": [
         {
           "workflow": "climate_101_workflow.ga",
-          "tests": false
+          "tests": false,
+          "url": "https://training.galaxyproject.org/training-material/topics/climate/tutorials/climate-101/workflows/climate_101_workflow.ga",
+          "path": "topics/climate/tutorials/climate-101/workflows/climate_101_workflow.ga",
+          "wfid": "climate-climate-101",
+          "wfname": "climate_101_workflow",
+          "trs_endpoint": "https://training.galaxyproject.org/training-material/api/ga4gh/trs/v2/tools/climate-climate-101/versions/climate_101_workflow",
+          "license": "MIT",
+          "creators": [
+            {
+              "class": "Person",
+              "identifier": "https://orcid.org/0000-0002-1784-2920",
+              "name": "Anne Fouilloux"
+            }
+          ]
         }
       ],
       "tools": [
@@ -539,8 +607,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//climate/tutorials/climate-101/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//climate/tutorials/climate-101/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/climate/tutorials/climate-101/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/climate/tutorials/climate-101/tutorial.json"
       }
     },
     {
@@ -549,7 +617,9 @@
       "priority": 1,
       "title": "Introduction to climate data",
       "redirect_from": [
-        "/topics/climate/slides/introduction"
+        "/topics/climate/slides/introduction",
+        "/short/climate/introduction/slides",
+        "/short/S00037"
       ],
       "video": true,
       "contributors": [
@@ -558,19 +628,23 @@
           "twitter": "AnneFouilloux",
           "joined": "2019-07",
           "elixir_node": "no",
+          "orcid": "0000-0002-1784-2920",
           "id": "annefou",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/annefou.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/annefou.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/annefou/"
         },
         {
           "name": "Jean Iaquinta",
           "joined": "2020-10",
           "id": "j34ni",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/j34ni.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/j34ni.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/j34ni/"
         }
       ],
       "url": "/topics/climate/tutorials/introduction/slides.html",
       "topic_name": "climate",
       "tutorial_name": "introduction",
+      "dir": "topics/climate/tutorials/introduction",
       "id": "climate/introduction",
       "video_library": {
         "tutorial": null,
@@ -596,8 +670,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//climate/tutorials/introduction/slides.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//climate/tutorials/introduction/slides.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/climate/tutorials/introduction/slides.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/climate/tutorials/introduction/slides.json"
       }
     },
     {
@@ -663,13 +737,16 @@
           "twitter": "AnneFouilloux",
           "joined": "2019-07",
           "elixir_node": "no",
+          "orcid": "0000-0002-1784-2920",
           "id": "annefou",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/annefou.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/annefou.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/annefou/"
         }
       ],
       "url": "/topics/climate/tutorials/fates-jupyterlab/tutorial.html",
       "topic_name": "climate",
       "tutorial_name": "fates-jupyterlab",
+      "dir": "topics/climate/tutorials/fates-jupyterlab",
       "id": "climate/fates-jupyterlab",
       "video_library": {
         "tutorial": null,
@@ -696,8 +773,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//climate/tutorials/fates-jupyterlab/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//climate/tutorials/fates-jupyterlab/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/climate/tutorials/fates-jupyterlab/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/climate/tutorials/fates-jupyterlab/tutorial.json"
       }
     },
     {
@@ -730,13 +807,16 @@
           "twitter": "AnneFouilloux",
           "joined": "2019-07",
           "elixir_node": "no",
+          "orcid": "0000-0002-1784-2920",
           "id": "annefou",
-          "url": "https://training.galaxyproject.org/training-material/api/contributors/annefou.json"
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/annefou.json",
+          "page": "https://training.galaxyproject.org/training-material/hall-of-fame/annefou/"
         }
       ],
       "url": "/topics/climate/tutorials/panoply/tutorial.html",
       "topic_name": "climate",
       "tutorial_name": "panoply",
+      "dir": "topics/climate/tutorials/panoply",
       "id": "climate/panoply",
       "video_library": {
         "tutorial": null,
@@ -763,8 +843,8 @@
       },
       "type": "tutorial",
       "urls": {
-        "hands_on": "https://training.galaxyproject.org/training-material/api/topics//climate/tutorials/panoply/tutorial.json",
-        "slides": "https://training.galaxyproject.org/training-material/api/topics//climate/tutorials/panoply/tutorial.json"
+        "hands_on": "https://training.galaxyproject.org/training-material/api/topics/climate/tutorials/panoply/tutorial.json",
+        "slides": "https://training.galaxyproject.org/training-material/api/topics/climate/tutorials/panoply/tutorial.json"
       }
     }
   ]
