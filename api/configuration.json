@@ -116,7 +116,7 @@
   "github_repository": "https://github.com/galaxyproject/training-material",
   "github_repository_branch": "main",
   "gitter_url": "https://gitter.im/Galaxy-Training-Network/Lobby",
-  "logo": "assets/images/GTN.png",
+  "logo": "assets/images/GTNLogo1000.png",
   "small_logo": "assets/images/GTN-60px.png",
   "help_url": "https://help.galaxyproject.org/",
   "other_languages": {
@@ -126,6 +126,28 @@
     "es": "Español",
     "pt": "Português",
     "ar": "العربية"
+  },
+  "javascript_bundles": {
+    "theme": {
+      "preload": true,
+      "resources": [
+        "assets/js/theme.js"
+      ],
+      "timestamp": 1694154868
+    },
+    "main": {
+      "preload": true,
+      "resources": [
+        "assets/js/jquery.slim.min.js",
+        "assets/js/popper.min.js",
+        "assets/js/bootstrap.min.js",
+        "assets/js/bootstrap-toc.min.js",
+        "assets/js/clipboard.min.js",
+        "assets/js/list.min.js",
+        "assets/js/main.js"
+      ],
+      "timestamp": 1694154868
+    }
   },
   "figurify": {
     "skip_empty": true,
@@ -187,6 +209,7 @@
     "galaxy-save": "far fa-save",
     "galaxy-scratchbook": "fas fa-th",
     "galaxy-selector": "far fa-check-square",
+    "galaxy-show-hidden": "fas fa-eye-slash",
     "galaxy-star": "far fa-star",
     "galaxy-tags": "fas fa-tags",
     "galaxy-toggle": "fas fa-toggle-on",
@@ -236,6 +259,7 @@
     "pref-signout": "fa fa-sign-out",
     "pref-notifications": "far fa-plus-square",
     "pref-delete": "fas fa-radiation",
+    "purl": "fas fa-fingerprint",
     "question": "far fa-question-circle",
     "references": "far fa-bookmark",
     "requirements": "fas fa-check-circle",
@@ -262,21 +286,11 @@
     "video-slides": "far fa-play-circle",
     "zenodo_link": "far fa-copy"
   },
-  "announcement": {
-    "class": "success",
-    "title": "GTN Smörgåsbord 2023",
-    "text": "The Galaxy Training Network is happy to announce the 3rd annual edition of the GTN Smörgåsbord global training event!\nThis 5-day, 24/7 training event is completely free, and covers a wide range of topics! During the week, **you** decide your own schedule, pick and choose the topics that are interesting to you, and learn at your own pace, with support from the global community of over 100 Galaxy instructors available on Slack 24/7 to answer your questions!\n\n[Register today!](https://gallantries.github.io/video-library/events/smorgasbord3/?utm_source=gtn-button&utm_medium=website&utm_campaign=smorgasbord2023){: .btn.btn-success}\n"
-  },
-  "banner_image": {
-    "source": "https://gallantries.github.io/assets/images/smorgasbord3/png/banner-email.png",
-    "link": "https://gallantries.github.io/video-library/events/smorgasbord3/?utm_source=gtn-banner&utm_medium=website&utm_campaign=smorgasbord2023",
-    "alt": "The Gallantries, Galaxy Training Network & Galaxy Community are happy to announce: GTN Smorgasbord 3, gxy.io/smorgasbord3 a free galaxy training event, online, from may 22-26 2023. Topics covered include SARS-CoV-2, RNA-Seq, Single Cell, Proteomics, Machine Learning, Annotation, Climate, Ecology, Cancer, RO-Crates, and more! An EU flag in the corner indicates that this event is made possible with the support of the european union. A waterman butterfly projection map adorns the other corner suggesting a world wide event. Links are included to @gtn@mstdn.science @gallantries@mstdn.science, and two twitter urls @gxyTraining and @gallantries_eu\n"
-  },
   "serving": false,
   "boxify": {
   },
-  "git_revision": "8de574462ca73f0ab4bc48e33d78d7f498656cde",
-  "git_revision_short": "8de5744",
+  "git_revision": "ef12aec0a7b087bae8abe7b52a52c52236e36304",
+  "git_revision_short": "ef12aec",
   "gtn_fork": "tuncK",
   "git_tags": [
 

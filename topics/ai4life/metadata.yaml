@@ -12,9 +12,9 @@ summary: |
 logo: /training-material/topics/ai4life/images/AI4Life-logo_neg_giraffe-solid.png
 logo_alt: "Giraffe icon. AI 4 life"
 
-maintainers:
+editorial_board:
 - beatrizserrano
-edam_ontology: "topic_3382"
+edam_ontology: ["topic_3382"]
 
 custom_css: |
   @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
