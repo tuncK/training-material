@@ -80,10 +80,6 @@
         "name": "BF2I-MAP"
       },
       {
-        "url": "http://143.169.238.104/galaxy/",
-        "name": "Biomina"
-      },
-      {
         "url": "https://cpt.tamu.edu/galaxy-public/",
         "name": "Center for Phage Technology (CPT)",
         "usegalaxy": "false"
@@ -101,6 +97,10 @@
       {
         "url": "http://pepsimili.e-nios.com:8080/",
         "name": "PepSimili"
+      },
+      {
+        "url": "https://galaxy.bio.di.uminho.pt/",
+        "name": "PhagePromotor"
       },
       {
         "url": "https://usegalaxy.be/",
