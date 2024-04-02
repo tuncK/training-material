@@ -270,7 +270,11 @@
           }
         ],
         "inexact": [
-
+          {
+            "url": "https://usegalaxy.cz/",
+            "name": "UseGalaxy.cz",
+            "usegalaxy": "true"
+          }
         ]
       },
       "topic_name_human": "Contributing to the Galaxy Training Material",
@@ -2310,6 +2314,11 @@
             "usegalaxy": "true"
           },
           {
+            "url": "https://usegalaxy.cz/",
+            "name": "UseGalaxy.cz",
+            "usegalaxy": "true"
+          },
+          {
             "url": "https://usegalaxy.eu",
             "name": "UseGalaxy.eu",
             "usegalaxy": "true"
@@ -2350,10 +2359,6 @@
             "url": "https://mississippi.sorbonne-universite.fr",
             "name": "MISSISSIPPI",
             "usegalaxy": "false"
-          },
-          {
-            "url": "https://galaxy.bio.di.uminho.pt/",
-            "name": "PhagePromotor"
           }
         ]
       },
