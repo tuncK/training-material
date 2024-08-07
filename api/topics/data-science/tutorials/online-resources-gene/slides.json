@@ -81,6 +81,10 @@
     ],
     "inexact": [
       {
+        "url": "http://bf2i-galaxy.insa-lyon.fr:8080/",
+        "name": "BF2I-MAP"
+      },
+      {
         "url": "https://cpt.tamu.edu/galaxy-public/",
         "name": "Center for Phage Technology (CPT)",
         "usegalaxy": "false"
@@ -102,6 +106,11 @@
       {
         "url": "https://galaxy.bio.di.uminho.pt/",
         "name": "PhagePromotor"
+      },
+      {
+        "url": "https://usegalaxy.be/",
+        "name": "UseGalaxy.be",
+        "usegalaxy": "true"
       },
       {
         "url": "https://usegalaxy.no/",
