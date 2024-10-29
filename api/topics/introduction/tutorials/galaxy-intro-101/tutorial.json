@@ -1266,13 +1266,13 @@
         "usegalaxy": "true"
       },
       {
-        "url": "https://usegalaxy.eu",
-        "name": "UseGalaxy.eu",
+        "url": "https://usegalaxy.fr/",
+        "name": "UseGalaxy.fr",
         "usegalaxy": "true"
       },
       {
-        "url": "https://usegalaxy.fr/",
-        "name": "UseGalaxy.fr",
+        "url": "https://usegalaxy.no/",
+        "name": "UseGalaxy.no",
         "usegalaxy": "true"
       }
     ],

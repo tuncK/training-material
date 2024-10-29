@@ -151,11 +151,7 @@
   ],
   "supported_servers": {
     "exact": [
-      {
-        "url": "https://usegalaxy.eu",
-        "name": "UseGalaxy.eu",
-        "usegalaxy": "true"
-      }
+
     ],
     "inexact": [
       {
@@ -166,6 +162,11 @@
       {
         "url": "https://usegalaxy.cz/",
         "name": "UseGalaxy.cz",
+        "usegalaxy": "true"
+      },
+      {
+        "url": "https://usegalaxy.no/",
+        "name": "UseGalaxy.no",
         "usegalaxy": "true"
       },
       {
