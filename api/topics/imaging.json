@@ -370,7 +370,11 @@
 
         ],
         "inexact": [
-
+          {
+            "url": "https://usegalaxy.eu",
+            "name": "UseGalaxy.eu",
+            "usegalaxy": "true"
+          }
         ]
       },
       "topic_name_human": "Imaging",
@@ -809,6 +813,11 @@
             "url": "https://usegalaxy.be/",
             "name": "UseGalaxy.be",
             "usegalaxy": "true"
+          },
+          {
+            "url": "https://usegalaxy.eu",
+            "name": "UseGalaxy.eu",
+            "usegalaxy": "true"
           }
         ],
         "inexact": [
@@ -1101,6 +1110,11 @@
       ],
       "supported_servers": {
         "exact": [
+          {
+            "url": "https://usegalaxy.eu",
+            "name": "UseGalaxy.eu",
+            "usegalaxy": "true"
+          },
           {
             "url": "https://usegalaxy.org.au",
             "name": "UseGalaxy.org.au",
