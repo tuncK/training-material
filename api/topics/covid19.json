@@ -208,11 +208,6 @@
             "usegalaxy": "true"
           },
           {
-            "url": "https://usegalaxy.fr/",
-            "name": "UseGalaxy.fr",
-            "usegalaxy": "true"
-          },
-          {
             "url": "https://usegalaxy.no/",
             "name": "UseGalaxy.no",
             "usegalaxy": "true"
@@ -995,11 +990,6 @@
             "usegalaxy": "true"
           },
           {
-            "url": "https://usegalaxy.fr/",
-            "name": "UseGalaxy.fr",
-            "usegalaxy": "true"
-          },
-          {
             "url": "https://usegalaxy.no/",
             "name": "UseGalaxy.no",
             "usegalaxy": "true"
@@ -1336,11 +1326,6 @@
             "url": "https://mississippi.sorbonne-universite.fr",
             "name": "MISSISSIPPI",
             "usegalaxy": "false"
-          },
-          {
-            "url": "https://usegalaxy.fr/",
-            "name": "UseGalaxy.fr",
-            "usegalaxy": "true"
           }
         ]
       },
@@ -1669,11 +1654,6 @@
       ],
       "supported_servers": {
         "exact": [
-          {
-            "url": "https://usegalaxy.fr/",
-            "name": "UseGalaxy.fr",
-            "usegalaxy": "true"
-          },
           {
             "url": "https://usegalaxy.org",
             "name": "UseGalaxy.org (Main)",
@@ -2119,11 +2099,6 @@
           {
             "url": "https://usegalaxy.eu",
             "name": "UseGalaxy.eu",
-            "usegalaxy": "true"
-          },
-          {
-            "url": "https://usegalaxy.fr/",
-            "name": "UseGalaxy.fr",
             "usegalaxy": "true"
           },
           {
